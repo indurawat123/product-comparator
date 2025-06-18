@@ -4,13 +4,6 @@ An interactive, responsive React web app that lets users compare laptops side-by
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Live Preview (Netlify/GitHub Pages)](https://your-deployment-url.com)  
-_(Replace with your actual deployment link)_
-
----
-
 ## 📦 Tech Stack
 
 - **React + TypeScript**
