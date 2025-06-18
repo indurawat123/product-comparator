@@ -72,4 +72,28 @@ export const products = [
       weight: "1.2 kg",
     },
   },
+  {
+    id: 7,
+    name: "Acer Swift 3",
+    brand: "Acer",
+    price: "$699",
+    image: "/assets/images/acer.jpg",
+    features: {
+      battery: "12 hrs",
+      screen: "14-inch IPS",
+      weight: "1.2 kg",
+    },
+  },
+  {
+    id: 8,
+    name: "LG Gram 16",
+    brand: "LG",
+    price: "$1399",
+    image: "/assets/images/lg.jpg",
+    features: {
+      battery: "19 hrs",
+      screen: "16-inch WQXGA",
+      weight: "1.2 kg",
+    },
+  },
 ];

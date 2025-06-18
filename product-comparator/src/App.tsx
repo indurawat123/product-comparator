@@ -35,16 +35,18 @@ useEffect(() => {
   return (
     <div className={dark ? "dark" : ""}>
       <header>
-        <div>
-          <h2>Product Comparator</h2>
-        </div>
-        <input
-          placeholder="Search..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
-        <button onClick={() => setDark(!dark)} className="toggle-button">Toggle Theme</button>
-      </header>
+  <h2>Product Comparator</h2>
+  <div className="header-controls">
+    <input
+      placeholder="Search..."
+      value={search}
+      onChange={e => setSearch(e.target.value)}
+    />
+    <button onClick={() => setDark(!dark)} className="toggle-button">Toggle Theme</button>
+  </div>
+</header>
+
+
 
       <div className="product-grid">
         {filtered.map(p => (

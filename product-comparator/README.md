@@ -16,7 +16,6 @@ _(Replace with your actual deployment link)_
 - **React + TypeScript**
 - **Vite** (for fast development build)
 - **HTML5 + CSS3**
-- Optional libraries: None (Vanilla React)
 
 ---
 
@@ -57,18 +56,27 @@ _(Replace with your actual deployment link)_
 
 ## 📸 Screenshots
 
-> _Add screenshots of your app below and place them in the `screenshots/` folder in your repo._
 
-| Product Grid              | Comparison Table            | Dark Mode                  |
-|--------------------------|-----------------------------|----------------------------|
-| ![](screenshots/grid.png) | ![](screenshots/compare.png) | ![](screenshots/darkmode.png) |
+### Homepage
+![Homepage](screenshots/homePage.png)
 
----
+### Comparison Bar
+![Comparison](screenshots/comparisonBar.png)
+
+### Comparison Table
+![Comparison](screenshots/comparisonTable.png)
+
+### Dark Theme
+![DarkTheme](screenshots/darkTheme.png)
+
+### Search
+![Search](screenshots/itemSearch.png)
+
 
 ## 🛠 Setup Instructions
 
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/product-comparison-app.git
+git clone https://github.com/indurawat123/product-comparator.git
 cd product-comparison-app
