@@ -20,7 +20,7 @@ export const CompareBar: React.FC<CompareBarProps> = ({
   showTable,
 }) => (
   <div className="compare-bar">
-    <div>
+  <div className="compare-bar-inner">
     {selectedProducts.map(p => (
       <div key={p.id}>
         <img src={p.image} alt={p.name} style={{ width: "80px", height: "70px" }} />
@@ -29,10 +29,10 @@ export const CompareBar: React.FC<CompareBarProps> = ({
       </div>
     ))}
     <div className="actions">
-        <button onClick={showTable}>Compare</button>
-        <button onClick={clearCompare}>Clear</button>
-      </div>
+      <button onClick={showTable}>Compare</button>
+      <button onClick={clearCompare}>Clear</button>
     </div>
-    
   </div>
+</div>
+
 );
